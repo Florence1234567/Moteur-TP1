@@ -1,0 +1,74 @@
+# ========================
+# IDE / Editor files
+# ========================
+
+# JetBrains Rider / IntelliJ
+.idea/
+*.iml
+
+# Visual Studio
+.vs/
+*.user
+*.DotSettings.user
+
+# ========================
+# Build outputs
+# ========================
+
+# Visual Studio build folders
+x64/
+Debug/
+Release/
+*/x64/
+*/Debug/
+*/Release/
+
+# Specifically ignore your current outputs
+TP1/x64/
+TP1/x64/Debug/
+x64/Debug/
+
+# ========================
+# Intermediate files
+# ========================
+
+*.obj
+*.pch
+*.pdb
+*.idb
+*.ilk
+*.log
+*.tlog
+*.lastbuildstate
+
+# ========================
+# Executables & binaries
+# ========================
+
+*.exe
+*.dll
+*.lib
+*.exp
+
+# ========================
+# CMake / build systems (safe even if unused)
+# ========================
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ========================
+# OS files
+# ========================
+
+.DS_Store
+Thumbs.db
+
+# ========================
+# Submodules
+# ========================
+
+# SDL is tracked as a submodule — do NOT ignore it
+# (no rule needed here, just a reminder)

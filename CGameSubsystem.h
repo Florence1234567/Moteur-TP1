@@ -12,7 +12,7 @@
 class CGameSubsystem : public ISubsystem
 {
 public:
-    CGameSubsystem(): frameIndex(0), frameCount(0), timeSinceLastUpdate(0.0f), averageFPS(0.0f), inputSubsystem(nullptr), red(0), green(0), blue(0)
+    CGameSubsystem(): frameIndex(0), frameCount(0), timeSinceLastUpdate(0.0f), averageFPS(0.0f), averageDeltaTime(0.0f), inputSubsystem(nullptr), red(0), green(0), blue(0)
     {
         for (int i = 0; i < 100; ++i)
             frameTimes[i] = 0.0f;
@@ -49,14 +49,14 @@ public:
 
         timeSinceLastUpdate += deltaSeconds;
 
-        if (timeSinceLastUpdate >= 5.0f)
+        if (timeSinceLastUpdate >= 0.5f)
         {
             float sum = 0.0f;
 
             for (int i = 0; i < frameCount; ++i)
                 sum += frameTimes[i];
 
-            float averageDeltaTime = sum / static_cast<float>(frameCount);
+            averageDeltaTime = sum / static_cast<float>(frameCount);
 
             if (averageDeltaTime > 0.0f)
                 averageFPS = 1.0f / averageDeltaTime;
@@ -87,6 +87,8 @@ public:
 
     float GetAverageFPS() { return averageFPS; }
 
+    float GetAverageDeltaTime() { return averageDeltaTime; }
+    
     int GetRed() const { return red; }
     
     int GetGreen() const { return green; }
@@ -101,7 +103,8 @@ private:
     size_t frameCount;
     float timeSinceLastUpdate;
     float averageFPS;
-
+    float averageDeltaTime;
+    
     int red;
     int green;
     int blue;

@@ -4,7 +4,28 @@
     <projectFile>TP1.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13039f87-4345-4471-a76c-d15a8b534fe8" name="Changes" comment="" />
+    <list default="true" id="13039f87-4345-4471-a76c-d15a8b534fe8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TP1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TP1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CGameEngine.h" beforeDir="false" afterPath="$PROJECT_DIR$/CGameEngine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CGameSubsystem.h" beforeDir="false" afterPath="$PROJECT_DIR$/CGameSubsystem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRenderSubsystem.h" beforeDir="false" afterPath="$PROJECT_DIR$/CRenderSubsystem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/x64/Debug/TP1.exe.recipe" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/x64/Debug/TP1.exe.recipe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/x64/Debug/TP1.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/x64/Debug/TP1.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/Cl.items.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/Cl.items.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/TP1.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/TP1.lastbuildstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/link.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/link.secondary.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/link.secondary.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/x64/Debug/TP1.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/x64/Debug/main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/x64/Debug/main.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/TP1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/TP1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/TP1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/TP1.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +34,20 @@
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../TP1/TP1/Projet/CCounter.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../TP1/TP1/Projet/CRenderSubsystem.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="SWEA" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="38pM4RsnJOkFwgEVHicoI3n03l5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,6 +58,7 @@
     "C/C++ Project.TP1.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -63,6 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1769491867963</updated>
       <workItem from="1769491870916" duration="52000" />
+      <workItem from="1769904146421" duration="300000" />
     </task>
     <servers />
   </component>

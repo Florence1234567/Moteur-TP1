@@ -60,7 +60,7 @@ public:
         inputSubsystem->Update(deltaSeconds);
         gameSubsystem->Update(deltaSeconds);
 
-        renderSubsystem->Render(gameSubsystem->GetAverageFPS(), gameSubsystem->GetRed(), gameSubsystem->GetGreen(), gameSubsystem->GetBlue());
+        renderSubsystem->Render(gameSubsystem->GetAverageFPS(), gameSubsystem->GetAverageDeltaTime(), gameSubsystem->GetRed(), gameSubsystem->GetGreen(), gameSubsystem->GetBlue());
     }
     
     void Shutdown()

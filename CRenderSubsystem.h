@@ -43,14 +43,14 @@ public:
         (void)deltaSeconds;
     }
 
-    void Render(float averageFPS, int red, int green, int blue)
+    void Render(float averageFPS, float averageDeltaTime, int red, int green, int blue)
     {
-        char message[64];
-        SDL_snprintf(message, 64, "FPS: %f\n", averageFPS);
+        char message[128];
+        SDL_snprintf(message, 128, "FPS: %f\n | Avg Delta: %.4f s", averageFPS, averageDeltaTime);
         
         int w = 0, h = 0;
         float x, y;
-        const float scale = 4.0f;
+        const float scale = 2.0f;
         
         /* Center the message and scale it up */
         SDL_GetRenderOutputSize(renderer, &w, &h);
